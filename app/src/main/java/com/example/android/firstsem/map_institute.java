@@ -61,5 +61,11 @@ public class map_institute extends FragmentActivity {
      */
     private void setUpMap() {
         mMap.addMarker(new MarkerOptions().position(new LatLng(54.0773099,12.1062652)).title("Institut für Informatik"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(54.0770536,12.1135974)).title("Institut für Allgemeine Elektrotechnik"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(54.077377,12.1136832)).title("Institut für Elektrische Energietechnik"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(54.077639,12.1142136)).title("Institut für Gerätesysteme und Schaltungstechnik"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(54.1703493,12.0815306)).title("Institut Mikroelektronik und Datentechnik"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(54.1718742,12.0784157)).title("Institut für Nachrichtentechnik"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(54.1704692,12.0783032)).title("Institut für Automatisierungstechnik"));
     }
 }
