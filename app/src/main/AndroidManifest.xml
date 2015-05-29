@@ -48,6 +48,10 @@
             android:name=".news"
             android:label="@string/title_activity_news" >
         </activity>
+        <activity
+            android:name=".termine"
+            android:label="@string/title_activity_termine" >
+        </activity>
     </application>
 
 </manifest>

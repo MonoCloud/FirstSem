@@ -11,5 +11,6 @@
     <string name="title_activity_map">map</string>
     <string name="title_activity_mensa">mensa</string>
     <string name="title_activity_news">news</string>
+    <string name="title_activity_termine">termine</string>
 
 </resources>
