@@ -16,6 +16,38 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".campus"
+            android:label="@string/title_activity_campus" >
+        </activity>
+        <activity
+            android:name=".checklist"
+            android:label="@string/title_activity_checklist" >
+        </activity>
+        <activity
+            android:name=".plan"
+            android:label="@string/title_activity_plan" >
+        </activity>
+        <activity
+            android:name=".events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name=".kontakt"
+            android:label="@string/title_activity_kontakt" >
+        </activity>
+        <activity
+            android:name=".map"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name=".mensa"
+            android:label="@string/title_activity_mensa" >
+        </activity>
+        <activity
+            android:name=".news"
+            android:label="@string/title_activity_news" >
+        </activity>
     </application>
 
 </manifest>
