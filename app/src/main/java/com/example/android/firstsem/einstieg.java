@@ -23,6 +23,10 @@ public class einstieg extends ActionBarActivity {
         return true;
     }
 
+    public void switchToChecklist(View view){
+        startActivity(new Intent(einstieg.this, checklist.class));
+    }
+
     public void return_back(View view){
         startActivity(new Intent(einstieg.this, MainActivity.class));
     }

@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
         startActivity(browserIntent);
     }
 
-    public void switchToMap(View view){
+    public void switchToMap(View view) {
         startActivity(new Intent(MainActivity.this, map.class));
     }
 
