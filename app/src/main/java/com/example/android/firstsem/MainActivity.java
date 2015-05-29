@@ -1,6 +1,7 @@
 package com.example.android.firstsem;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -37,7 +38,8 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void switchToMensa(View view){
-        startActivity(new Intent(MainActivity.this, mensa.class));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.studentenwerk-rostock.de/index.php?lang=de&mainmenue=4&submenue=47"));
+        startActivity(browserIntent);
     }
 
     public void switchToMap(View view){
