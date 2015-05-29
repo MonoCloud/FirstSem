@@ -52,10 +52,6 @@
             android:label="@string/title_activity_map" >
         </activity>
         <activity
-            android:name=".mensa"
-            android:label="@string/title_activity_mensa" >
-        </activity>
-        <activity
             android:name=".news"
             android:label="@string/title_activity_news" >
         </activity>
