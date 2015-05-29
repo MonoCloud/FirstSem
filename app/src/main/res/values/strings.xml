@@ -12,5 +12,6 @@
     <string name="title_activity_mensa">mensa</string>
     <string name="title_activity_news">news</string>
     <string name="title_activity_termine">termine</string>
+    <string name="title_activity_einstieg">einstieg</string>
 
 </resources>

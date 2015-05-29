@@ -52,6 +52,10 @@
             android:name=".termine"
             android:label="@string/title_activity_termine" >
         </activity>
+        <activity
+            android:name=".einstieg"
+            android:label="@string/title_activity_einstieg" >
+        </activity>
     </application>
 
 </manifest>
