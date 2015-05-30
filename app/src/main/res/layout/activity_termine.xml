@@ -16,25 +16,29 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Termine und Fristen"
-            android:id="@+id/textView2"
+            android:id="@+id/termin_title"
             android:layout_gravity="center_horizontal"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true" />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Im Folgenden wird ausgeschlossen, dass Prüfungsfristen eingetragen werden ... weil das zu spezifisch ist und nicht allgemein"
-            android:id="@+id/textView3"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/termin_textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Allgemeine Termine für alle Studiengänge"
-            android:id="@+id/button12"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/termin_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="30dp" />
     </LinearLayout>
 
 </RelativeLayout>

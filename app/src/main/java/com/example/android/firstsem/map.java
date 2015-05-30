@@ -28,10 +28,6 @@ public class map extends ActionBarActivity {
         return true;
     }
 
-    public void switchToMapInstitute(View view){
-        startActivity(new Intent(map.this, map_institute.class));
-    }
-
     public void return_back(View view){
         startActivity(new Intent(map.this, MainActivity.class));
     }

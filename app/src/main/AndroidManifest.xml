@@ -35,42 +35,42 @@
         <activity
             android:name=".checklist"
             android:label="@string/title_activity_checklist"
-            android:parentActivityName=".einstieg">
+            android:parentActivityName=".einstieg" >
         </activity>
         <activity
             android:name=".plan"
             android:label="@string/title_activity_plan"
-            android:parentActivityName=".campus">
+            android:parentActivityName=".campus" >
         </activity>
         <activity
             android:name=".events"
             android:label="@string/title_activity_events"
-            android:parentActivityName=".campus">
+            android:parentActivityName=".campus" >
         </activity>
         <activity
             android:name=".kontakt"
             android:label="@string/title_activity_kontakt"
-            android:parentActivityName=".einstieg">
+            android:parentActivityName=".einstieg" >
         </activity>
         <activity
             android:name=".map"
             android:label="@string/title_activity_map"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".news"
             android:label="@string/title_activity_news"
-            android:parentActivityName=".campus">
+            android:parentActivityName=".campus" >
         </activity>
         <activity
             android:name=".termine"
             android:label="@string/title_activity_termine"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".einstieg"
             android:label="@string/title_activity_einstieg"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity" >
         </activity>
 
         <meta-data
@@ -80,6 +80,14 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_key" />
 
+        <activity
+            android:name=".Linklist"
+            android:label="@string/title_activity_linklist"
+            android:parentActivityName=".einstieg" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.firstsem.einstieg" />
+        </activity>
     </application>
 
 </manifest>

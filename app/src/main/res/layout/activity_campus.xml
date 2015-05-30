@@ -16,38 +16,52 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Alles was du für die Zeit an der Uni wissen muss ..."
-            android:id="@+id/textView10"
+            android:id="@+id/campus_title"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="News"
-            android:id="@+id/button4"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/news_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Events"
-            android:id="@+id/button5"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/event_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Studienplan"
-            android:id="@+id/button6"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/studienplan_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Hochschulsport"
+            android:id="@+id/sport_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
+
+        <Button
+            android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="Kontakte"
-            android:id="@+id/button7"
-            android:layout_gravity="center_horizontal" />
+            android:id="@+id/kontakt_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp" />
 
     </LinearLayout>
 

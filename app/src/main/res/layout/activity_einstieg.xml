@@ -16,33 +16,44 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Das Wichtigste für einen erfolgreichen Studienbeginn ..."
-            android:id="@+id/textView8"
+            android:id="@+id/einstieg_title"
             android:layout_gravity="center_horizontal"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="Checkliste für Erstis"
             android:id="@+id/checklist_button"
             android:layout_gravity="center_horizontal"
-            android:onClick="switchToChecklist" />
+            android:onClick="switchToChecklist"
+            android:layout_marginTop="20dp"
+            android:padding="15dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Linkliste"
+            android:text="Sehenswerte Websites"
             android:id="@+id/linklist_button"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="switchToLinklist"
+            android:layout_marginTop="20dp"
+            android:padding="15dp" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="Ablaufplan des Studiums"
             android:id="@+id/studienplan_button"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="switchToPlan"
+            android:layout_marginTop="20dp"
+            android:padding="15dp" />
 
     </LinearLayout>
 

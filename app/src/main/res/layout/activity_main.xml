@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Menü"
-            android:id="@+id/Menu_textView"
+            android:id="@+id/Menu_title"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
             android:textSize="30dp"
