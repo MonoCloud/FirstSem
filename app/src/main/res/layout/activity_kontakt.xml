@@ -35,7 +35,7 @@
 
         <Button
             style="?android:attr/buttonStyleSmall"
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="Professoren"
             android:id="@+id/button"
@@ -46,7 +46,7 @@
             android:padding="15dp" />
 
         <Button
-            android:layout_width="200dp"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="Studenten-Sekretariat"
             android:id="@+id/button2"

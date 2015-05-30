@@ -2,6 +2,7 @@
     <string name="app_name">AppSolutely</string>
 
     <string name="action_settings">Action_Settings</string>
+
     <string name="title_activity_campus">Unsere Universität</string>
     <string name="title_activity_checklist">Die Checklist zum Studienbeginn</string>
     <string name="title_activity_einstieg">Tipps für Erstis</string>

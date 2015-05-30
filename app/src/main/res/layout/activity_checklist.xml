@@ -46,13 +46,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Der Studentenausweis sollte euch automatisch nach der Einschreibung zugesandt werden. Sollte dies nicht der Fall sein, meldet euch umgehend beim Studierendensekretariat."
-                        android:id="@+id/textView11" />
+                        android:id="@+id/textView11"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Studentenausweis / Semesterticket erhalten"
-                        android:id="@+id/checkBox" />
+                        android:id="@+id/checkBox"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
 
                 </LinearLayout>
 
@@ -65,13 +68,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Den ITMZ-Account erhaltet ihr ebenfalls automatisch nach der Einschreibung. Die Benutzerkennung beginnt für gewöhnlich mit dem jeweils ersten Buchstaben eures Vor- und Nachnamens."
-                        android:id="@+id/textView12" />
+                        android:id="@+id/textView12"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="ITMZ-Account erhalten (Kürzel/PW)"
-                        android:id="@+id/checkBox2" />
+                        android:id="@+id/checkBox2"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -83,13 +89,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Das mit eurem ITMZ-Account verbundene E-Mail-Konto erreicht ihr unter https://email.uni-rostock.de."
-                        android:id="@+id/textView13" />
+                        android:id="@+id/textView13"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="E-Mail-Konto ausprobiert"
-                        android:id="@+id/checkBox3" />
+                        android:id="@+id/checkBox3"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -101,13 +110,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Um euch eure Stundenpläne zusammenzustellen stehen euch die Portale LSF (lsf.uni-rostock.de) und Stud.IP (studip.uni-rostock.de) zur Verfügung. Tragt euch im Stud.IP am besten gleich in eure Veranstaltungen ein um alle aktuellen Infos zu den Lehrveranstaltungen zu erhalten."
-                        android:id="@+id/textView14" />
+                        android:id="@+id/textView14"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Stundenplan erstellt und für Lehrveranstaltung eingetragen"
-                        android:id="@+id/checkBox4" />
+                        android:id="@+id/checkBox4"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -119,13 +131,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Das Stud.IP kann natürlich noch mehr."
-                        android:id="@+id/textView15" />
+                        android:id="@+id/textView15"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Stud.IP erforscht"
-                        android:id="@+id/checkBox5" />
+                        android:id="@+id/checkBox5"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -137,13 +152,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Den Bibliotheksausweis benötigt ihr um Bücher bei den Universitätsbibliotheken auszuleihen. Ihr erhaltet ihn am Empfang unter Vorlage eures Studentenausweises."
-                        android:id="@+id/textView16" />
+                        android:id="@+id/textView16"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Bibliotheksausweis"
-                        android:id="@+id/checkBox6" />
+                        android:id="@+id/checkBox6"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -156,14 +174,15 @@
                         android:layout_height="wrap_content"
                         android:text="Die Mensacard ist dazu da, möglichst schnell in den Mensen zu bezahlen. Ihr erhaltet sie für 10€ (davon 5€ Pfand) an den Kassen der Mensen."
                         android:id="@+id/textView17"
-                        android:singleLine="true" />
+                        android:singleLine="false" />
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mensacard"
                         android:id="@+id/checkBox7"
-                        android:singleLine="false" />
+                        android:singleLine="false"
+                        android:onClick="onCheckboxClicked"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -175,13 +194,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Die Schlüsselkarte benötigt ihr um Rund um die Uhr Zutritt zum Konrad Zuse Haus zu erhalten. Außerdem lassen sich die Zugriffe im weiteren Verlauf eures Studiums auf weitere Gebäude und Räumlichkeiten ausdehnen. Ihr erhaltet die Karte an der Rezeption des Konrad Zuse Hauses."
-                        android:id="@+id/textView12" />
+                        android:id="@+id/textView18"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Schlüsselkarte für KZH/Kopierkarte"
-                        android:id="@+id/checkBox2" />
+                        android:id="@+id/checkBox8"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
 
                 </LinearLayout>
 
@@ -194,13 +216,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mit dem Informatik-Account erhaltet ihr Zugriff auf spezielle PC-Pools des Instituts für Informatik. Informationen zum Account erhaltet ihr bei account@informatik.uni-rostock.de"
-                        android:id="@+id/textView19" />
+                        android:id="@+id/textView19"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Informatik-Account abgeholt"
-                        android:id="@+id/checkBox9" />
+                        android:id="@+id/checkBox9"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -212,14 +237,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Eine Übersicht über das Hochschulsportangebot erhaltet ihr unter http://www.hochschulsport.uni-rostock.de. Bei der Anmeldung heißt es jedoch schnell sein, viele Kurse sind oft bereits nach den ersten Minuten ausgebucht."
-                        android:id="@+id/textView18" />
+                        android:id="@+id/textView23"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Hochschulsport"
-                        android:id="@+id/checkBox8"
-                        android:singleLine="false" />
+                        android:id="@+id/checkBox13"
+                        android:singleLine="false"
+                        android:onClick="onCheckboxClicked"/>
 
                 </LinearLayout>
 
@@ -232,13 +259,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Die Studien- und Prüfungsordnungen findet ihr auf den jeweiligen Studiengangsseiten der Fakultäten. Darin stehen alle eure Rechte und Pflichten die ihr im Hinblick auf euer Studium und die Prüfungen habt."
-                        android:id="@+id/textView20" />
+                        android:id="@+id/textView20"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Studien-Prüfungsordnung gelesen"
-                        android:id="@+id/checkBox10" />
+                        android:id="@+id/checkBox10"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -250,13 +280,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Das Mentoringprogramm unterstützt euch beim Einstieg in das Studium. Die Einteilung in die Mentoringgruppen erfolgt in der Einführungswoche. Solltet ihr das verpasst haben, wendet euch am besten an euren zuständigen Fachschaftsrat."
-                        android:id="@+id/textView21" />
+                        android:id="@+id/textView21"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Mentoring-Gruppe gefunden"
-                        android:id="@+id/checkBox11" />
+                        android:id="@+id/checkBox11"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -268,13 +301,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Der Mathe-Vorkurs und die  Einführungswoche sind eine gute Möglichkeit erste Kontakte mit euren Kommilitonen zu knüpfen."
-                        android:id="@+id/textView22" />
+                        android:id="@+id/textView22"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Einführungsveranstaltungen besucht"
-                        android:id="@+id/checkBox12" />
+                        android:id="@+id/checkBox12"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -286,13 +322,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="BAföG-Erstanträge können bis zum 31.10. beim Studentenwerk Rostock eingereicht werden."
-                        android:id="@+id/textView24" />
+                        android:id="@+id/textView24"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="BAföG beantragt"
-                        android:id="@+id/checkBox14" />
+                        android:id="@+id/checkBox14"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -304,13 +343,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Für die Anmeldung Eures Hauptwohnsitzes in Rostock bekommt ihr eine Wohnsitzprämie in Höhe von 100€."
-                        android:id="@+id/textView27" />
+                        android:id="@+id/textView25"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Einwohnermeldeamt (Hauptwohnsitz Rostock = 100€ Wohnsitzprämie)"
-                        android:id="@+id/checkBox17" />
+                        android:id="@+id/checkBox15"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -322,13 +364,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rostock hat als Studentenstadt viel zu bieten, finde heraus, dass &quot;Studieren mit Meerwert&quot; mehr als nur ein Slogan ist."
-                        android:id="@+id/textView29" />
+                        android:id="@+id/textView26"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Einkaufsmöglichkeiten, Bunker, Kino, Clubs und Bars ausfindig gemacht"
-                        android:id="@+id/checkBox19" />
+                        android:id="@+id/checkBox16"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -340,13 +385,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Viele Geschäfte und Onlineshops gewähren Studentenrabatte, die mitunter ziemlich hoch sind."
-                        android:id="@+id/textView30" />
+                        android:id="@+id/textView27"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Studentenrabatte abgecheckt"
-                        android:id="@+id/checkBox20" />
+                        android:id="@+id/checkBox17"
+                        android:onClick="onCheckboxClicked"
+                        android:singleLine="false"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -358,14 +406,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Die Kenntniss der öffentlichen Verkehrsmittel sind für Studente in Rostock unerlässich. Eine gute Kenntniss der Strecken und Fahrzeiten wird euch nützlich sein."
-                        android:id="@+id/textView31" />
+                        android:id="@+id/textView28"
+                        android:singleLine="false"/>
 
                     <CheckBox
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Fahrplan öffentl. Verkehrsmittel (z.B. DB App, Öffi)"
-                        android:id="@+id/checkBox21"
-                        android:singleLine="false" />
+                        android:id="@+id/checkBox18"
+                        android:singleLine="false"
+                        android:onClick="onCheckboxClicked"/>
                 </LinearLayout>
 
             </LinearLayout>
