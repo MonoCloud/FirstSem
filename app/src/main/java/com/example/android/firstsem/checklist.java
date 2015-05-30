@@ -8,10 +8,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import Dinge_die_niemand_mehr_sehen_will.Dataprovider;
-import Dinge_die_niemand_mehr_sehen_will.ExpandListAdapter;
-
-
 public class checklist extends ActionBarActivity {
 
     @Override
