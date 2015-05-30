@@ -28,8 +28,8 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:textSize="25dp"
-                android:layout_margin="20dp" />
+                android:layout_margin="20dp"
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:orientation="vertical"
@@ -46,161 +46,184 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/textView3"
-                        android:text="Kontakte" />
+                        android:text="Kontakte"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
 
                     <Button
                         style="?android:attr/buttonStyleSmall"
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Professoren"
                         android:id="@+id/button"
-                        android:onClick="switchToLink1"/>
+                        android:onClick="switchToLink1"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Studenten-Sekretariat"
                         android:id="@+id/button2"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink2"/>
+                        android:onClick="switchToLink2"
+                        android:layout_gravity="center_horizontal" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/textView2"
-                        android:text="Links"/>
+                        android:text="Links"
+                        android:textSize="22dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Uni-Homepage"
                         android:id="@+id/button3"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink3"/>
+                        android:onClick="switchToLink3"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Uni-Mail"
                         android:id="@+id/button4"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink4"/>
+                        android:onClick="switchToLink4"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Stud.IP"
                         android:id="@+id/button5"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink5"/>
+                        android:onClick="switchToLink5"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Vorlesungsverzeichnis"
                         android:id="@+id/button6"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink6"/>
+                        android:onClick="switchToLink6"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Studentenwerk"
                         android:id="@+id/button7"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink7"/>
+                        android:onClick="switchToLink7"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Prüfungsportal"
                         android:id="@+id/button8"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink8"/>
+                        android:onClick="switchToLink8"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="FSR Informatik"
                         android:id="@+id/button9"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink9"/>
+                        android:onClick="switchToLink9"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="IEF"
                         android:id="@+id/button10"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink10"/>
+                        android:onClick="switchToLink10"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Sprachenzentrum"
                         android:id="@+id/button11"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink11"/>
+                        android:onClick="switchToLink11"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="ILIAS"
                         android:id="@+id/button12"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink12"/>
+                        android:onClick="switchToLink12"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Universitätsbibliothek"
                         android:id="@+id/button13"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink13"/>
+                        android:onClick="switchToLink13"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="Hochschulsport"
                         android:id="@+id/button14"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink14"/>
+                        android:onClick="switchToLink14"
+                        android:layout_gravity="center_horizontal" />
 
                     <Button
-                        android:layout_width="wrap_content"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:text="WLAN an der Uni"
                         android:id="@+id/button15"
                         android:layout_centerVertical="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
-                        android:onClick="switchToLink15"/>
+                        android:onClick="switchToLink15"
+                        android:layout_gravity="center_horizontal" />
 
                 </LinearLayout>
 
