@@ -1,6 +1,7 @@
 package com.example.android.firstsem;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -23,8 +24,9 @@ public class termine extends ActionBarActivity {
         return true;
     }
 
-    public void return_back(View view){
-        startActivity(new Intent(termine.this, MainActivity.class));
+    public void switchToFristen(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uni-rostock.de/studium/studienorganisation/term-frist"));
+        startActivity(browserIntent);
     }
 
     @Override
