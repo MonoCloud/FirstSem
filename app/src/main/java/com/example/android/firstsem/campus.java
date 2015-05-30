@@ -47,7 +47,7 @@ public class campus extends ActionBarActivity {
         startActivity(browserIntent);
     }
 
-    public void switchToKontakte(View view){
+    public void switchToKontakt(View view){
         startActivity(new Intent(campus.this, kontakt.class));
     }
 

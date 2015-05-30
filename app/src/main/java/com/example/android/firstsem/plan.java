@@ -25,17 +25,17 @@ public class plan extends ActionBarActivity {
     }
 
     public void openINF(View view){
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uni-rostock.de/studium/studienorganisation/term-frist"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ief.uni-rostock.de/fileadmin/user_upload/stud_form/Allgemein/Studienablaufplaene/IN_BSc_2012_-_Studienablauf_mit_Praktikum_oder_Auslandssemester_im_WS_DE.jpg"));
         startActivity(browserIntent);
     }
 
     public void openWIN(View view){
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uni-rostock.de/studium/studienorganisation/term-frist"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ief.uni-rostock.de/fileadmin/user_upload/stud_form/Allgemein/Studienablaufplaene/WIN_BSc_2013_-_Studienablauf_DE.jpg"));
         startActivity(browserIntent);
     }
 
     public void openITTI(View view){
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uni-rostock.de/studium/studienorganisation/term-frist"));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ief.uni-rostock.de/fileadmin/user_upload/stud_form/Allgemein/Studienablaufplaene/ITTI_BSc_2012_-_Studienablauf_mit_Praktikum_DE.jpg"));
         startActivity(browserIntent);
     }
 

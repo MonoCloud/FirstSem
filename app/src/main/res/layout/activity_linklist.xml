@@ -52,7 +52,7 @@
                         android:id="@+id/textView2" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Uni-Homepage"
                         android:id="@+id/button3"
@@ -79,7 +79,7 @@
                         android:id="@+id/textView4" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Uni-Mail"
                         android:id="@+id/button4"
@@ -107,7 +107,7 @@
                         android:id="@+id/textView5" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Stud.IP"
                         android:id="@+id/button5"
@@ -135,7 +135,7 @@
                         android:id="@+id/textView6" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Vorlesungsverzeichnis"
                         android:id="@+id/button6"
@@ -163,7 +163,7 @@
                         android:id="@+id/textView8" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Studentenwerk"
                         android:id="@+id/button7"
@@ -191,7 +191,7 @@
                         android:id="@+id/textView9" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Prüfungsportal"
                         android:id="@+id/button8"
@@ -219,7 +219,7 @@
                         android:id="@+id/textView10" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="FSR Informatik"
                         android:id="@+id/button9"
@@ -247,7 +247,7 @@
                         android:id="@+id/textView23" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="IEF"
                         android:id="@+id/button10"
@@ -275,7 +275,7 @@
                         android:id="@+id/textView25" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Sprachenzentrum"
                         android:id="@+id/button11"
@@ -303,7 +303,7 @@
                         android:id="@+id/textView26" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="ILIAS"
                         android:id="@+id/button12"
@@ -331,7 +331,7 @@
                         android:id="@+id/textView28" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Universitätsbibliothek"
                         android:id="@+id/button13"
@@ -359,7 +359,7 @@
                         android:id="@+id/textView32" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="Hochschulsport"
                         android:id="@+id/button14"
@@ -387,7 +387,7 @@
                         android:id="@+id/textView33" />
 
                     <Button
-                        android:layout_width="200dp"
+                        android:layout_width="250dp"
                         android:layout_height="wrap_content"
                         android:text="WLAN an der Uni"
                         android:id="@+id/button15"

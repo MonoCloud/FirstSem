@@ -43,7 +43,7 @@
             android:id="@+id/termin_button"
             android:layout_gravity="center_horizontal"
             android:onClick="switchToFristen"
-            android:layout_margin="30dp"
+            android:layout_margin="20dp"
             android:padding="12dp"
             android:background="#ff618dbc" />
     </LinearLayout>
