@@ -33,7 +33,13 @@ public class campus extends ActionBarActivity {
     }
 
     public void switchToStundenplan(View view){
-        startActivity(new Intent(campus.this, stundenplan.class));
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://lsf.uni-rostock.de/qisserver/rds?state=change&type=5&moduleParameter=veranstaltungSearch&nextdir=change&next=search.vm&subdir=veranstaltung&_form=display&function=search&clean=y&category=veranstaltung.search&navigationPosition=lectures%2Csearch&breadcrumb=searchLectures&topitem=lectures&subitem=search"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToPruef(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://pruefung.uni-rostock.de/qisserver/rds?state=user&type=0"));
+        startActivity(browserIntent);
     }
 
     public void switchToSport(View view){

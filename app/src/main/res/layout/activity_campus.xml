@@ -30,7 +30,7 @@
             android:id="@+id/news_button"
             android:layout_gravity="center_horizontal"
             android:onClick="switchToNews"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="12dp" />
 
         <Button
             android:layout_width="200dp"
@@ -39,7 +39,7 @@
             android:id="@+id/event_button"
             android:layout_gravity="center_horizontal"
             android:onClick="switchToEvents"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="12dp" />
 
         <Button
             android:layout_width="200dp"
@@ -48,7 +48,16 @@
             android:id="@+id/studienplan_button"
             android:layout_gravity="center_horizontal"
             android:onClick="switchToStundenplan"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Prüfungsportal"
+            android:id="@+id/pruefungs_button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="switchToPruef"
+            android:layout_marginTop="12dp" />
 
         <Button
             android:layout_width="200dp"
@@ -57,7 +66,7 @@
             android:id="@+id/sport_button"
             android:layout_gravity="center_horizontal"
             android:onClick="switchToSport"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="12dp" />
 
         <Button
             android:layout_width="200dp"
@@ -66,7 +75,7 @@
             android:id="@+id/kontakt_button"
             android:layout_gravity="center_horizontal"
             android:onClick="switchToKontakt"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="12dp" />
 
     </LinearLayout>
 

@@ -1,20 +1,19 @@
 <resources>
-    <string name="app_name">Appsolute Einsteigerhilfe</string>
+    <string name="app_name">AppSolutely</string>
 
     <string name="action_settings">Action_Settings</string>
     <string name="title_activity_campus">Unsere Universität</string>
     <string name="title_activity_checklist">Die Checklist zum Studienbeginn</string>
-    <string name="title_activity_plan">Studienplan</string>
+    <string name="title_activity_einstieg">Tipps für Erstis</string>
     <string name="title_activity_events">Anstehende Events</string>
     <string name="title_activity_kontakt">Kontakte</string>
-    <string name="title_activity_map">Map</string>
-    <string name="title_activity_mensa">Mensaübersicht</string>
-    <string name="title_activity_news">News</string>
-    <string name="title_activity_termine">Termine und Fristen</string>
-    <string name="title_activity_einstieg">Tipps für Erstis</string>
     <string name="title_activity_linklist">Linklist</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_plan">Studienplan</string>
+    <string name="title_activity_stundenplan">Stundenplan</string>
+    <string name="title_activity_termine">Termine und Fristen</string>
 
     <string name="hello_world">Hello world!</string>
-    <string name="title_activity_stundenplan">stundenplan</string>
 
 </resources>
