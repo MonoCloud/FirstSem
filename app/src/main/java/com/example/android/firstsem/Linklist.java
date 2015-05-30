@@ -1,9 +1,12 @@
 package com.example.android.firstsem;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class Linklist extends ActionBarActivity {
@@ -19,6 +22,81 @@ public class Linklist extends ActionBarActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_linklist, menu);
         return true;
+    }
+
+    public void switchToLink1(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ief.uni-rostock.de/index.php?id=forschung_institute"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink2(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ief.uni-rostock.de/index.php?id=studienbuero"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink3(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink4(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://email.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink5(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://studip.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink6(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://lsf.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink7(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.studentenwerk-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink8(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://pruefung.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink9(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.fsr-inf.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink10(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ief.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink11(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.sprachenzentrum.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink12(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://ilias.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink13(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ub.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink14(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://hochschulsport.uni-rostock.de"));
+        startActivity(browserIntent);
+    }
+
+    public void switchToLink15(View view){
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.itmz.uni-rostock.de/internet/zugang/w-lan/"));
+        startActivity(browserIntent);
     }
 
     @Override
