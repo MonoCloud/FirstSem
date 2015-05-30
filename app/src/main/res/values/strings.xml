@@ -15,5 +15,6 @@
     <string name="title_activity_linklist">Linklist</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_stundenplan">stundenplan</string>
 
 </resources>

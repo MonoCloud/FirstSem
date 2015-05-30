@@ -88,6 +88,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.firstsem.einstieg" />
         </activity>
+        <activity
+            android:name=".stundenplan"
+            android:label="@string/title_activity_stundenplan"
+            android:parentActivityName=".campus" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.firstsem.campus" />
+        </activity>
     </application>
 
 </manifest>

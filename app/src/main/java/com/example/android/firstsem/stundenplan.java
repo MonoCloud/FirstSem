@@ -1,48 +1,24 @@
 package com.example.android.firstsem;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 
-public class campus extends ActionBarActivity {
+public class stundenplan extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_campus);
+        setContentView(R.layout.activity_stundenplan);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_campus, menu);
+        getMenuInflater().inflate(R.menu.menu_stundenplan, menu);
         return true;
-    }
-
-    public void switchToNews(View view){
-        startActivity(new Intent(campus.this, news.class));
-    }
-
-    public void switchToEvents(View view){
-        startActivity(new Intent(campus.this, events.class));
-    }
-
-    public void switchToStundenplan(View view){
-        startActivity(new Intent(campus.this, stundenplan.class));
-    }
-
-    public void switchToSport(View view){
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://hochschulsport.uni-rostock.de/sportarten/aktueller_zeitraum/index.html"));
-        startActivity(browserIntent);
-    }
-
-    public void switchToKontakte(View view){
-        startActivity(new Intent(campus.this, einstieg.class));
     }
 
     @Override
