@@ -48,7 +48,7 @@ public class campus extends ActionBarActivity {
     }
 
     public void switchToKontakte(View view){
-        startActivity(new Intent(campus.this, einstieg.class));
+        startActivity(new Intent(campus.this, kontakt.class));
     }
 
     @Override

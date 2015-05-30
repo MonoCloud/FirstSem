@@ -23,7 +23,9 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
             android:singleLine="false"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,11 +39,13 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Termine auf der Universitätseite"
+            android:text="Zu den Terminen der Universitätseite"
             android:id="@+id/termin_button"
             android:layout_gravity="center_horizontal"
             android:onClick="switchToFristen"
-            android:layout_margin="30dp" />
+            android:layout_margin="30dp"
+            android:padding="12dp"
+            android:background="#ff618dbc" />
     </LinearLayout>
 
 </RelativeLayout>

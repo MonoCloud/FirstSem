@@ -9,23 +9,16 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
+        android:id="@+id/linearLayout3"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentStart="true">
 
-        <TextView
+        <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Menü"
-            android:id="@+id/Menu_title"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="30dp"
-            android:textSize="30dp"
-            android:layout_marginBottom="10dp"
-            android:focusableInTouchMode="false"
-            android:textStyle="bold" />
+            android:layout_height="90dp"
+            android:id="@+id/imageView"
+            android:src="@mipmap/Rostock_University_Logo_2009" />
 
         <Button
             android:layout_width="250dp"
@@ -35,8 +28,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
             android:textSize="20dp"
-            android:padding="18dp"
-            android:onClick="switchToEinstieg"/>
+            android:padding="15dp"
+            android:onClick="switchToEinstieg"
+            android:background="#ff618dbc" />
 
         <Button
             android:layout_width="250dp"
@@ -46,8 +40,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
             android:textSize="20dp"
-            android:padding="18dp"
-            android:onClick="switchToCampus"/>
+            android:padding="15dp"
+            android:onClick="switchToCampus"
+            android:background="#ff618dbc" />
 
         <Button
             android:layout_width="250dp"
@@ -57,8 +52,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
             android:textSize="20dp"
-            android:padding="18dp"
-            android:onClick="switchToTermin" />
+            android:padding="15dp"
+            android:onClick="switchToTermin"
+            android:background="#ff618dbc" />
 
         <Button
             android:layout_width="250dp"
@@ -68,8 +64,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
             android:textSize="20dp"
-            android:padding="18dp"
-            android:onClick="switchToMensa"/>
+            android:padding="15dp"
+            android:onClick="switchToMensa"
+            android:background="#ff618dbc" />
 
         <Button
             android:layout_width="250dp"
@@ -79,8 +76,10 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="15dp"
             android:textSize="20dp"
-            android:padding="18dp"
-            android:onClick="switchToMap"/>
+            android:padding="15dp"
+            android:onClick="switchToMap"
+            android:background="#ff618dbc" />
 
     </LinearLayout>
+
 </RelativeLayout>

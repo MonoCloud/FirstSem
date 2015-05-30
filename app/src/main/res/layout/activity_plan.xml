@@ -20,7 +20,9 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
 
         <Button
             android:layout_width="250dp"
@@ -29,7 +31,9 @@
             android:id="@+id/info_button"
             android:layout_gravity="center_horizontal"
             android:onClick="openINF"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"
+            android:background="#ff618dbc"
+            android:padding="15dp" />
 
         <Button
             android:layout_width="250dp"
@@ -38,7 +42,9 @@
             android:id="@+id/win_button"
             android:layout_gravity="center_horizontal"
             android:onClick="openWIN"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"
+            android:background="#ff618dbc"
+            android:padding="15dp" />
 
         <Button
             android:layout_width="250dp"
@@ -47,6 +53,8 @@
             android:id="@+id/itti_button"
             android:layout_gravity="center_horizontal"
             android:onClick="openITTI"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"
+            android:background="#ff618dbc"
+            android:padding="15dp" />
     </LinearLayout>
 </RelativeLayout>
