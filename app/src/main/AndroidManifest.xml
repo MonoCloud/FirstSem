@@ -29,39 +29,48 @@
         </activity>
         <activity
             android:name=".campus"
-            android:label="@string/title_activity_campus" >
+            android:label="@string/title_activity_campus"
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".checklist"
-            android:label="@string/title_activity_checklist" >
+            android:label="@string/title_activity_checklist"
+            android:parentActivityName=".einstieg">
         </activity>
         <activity
             android:name=".plan"
-            android:label="@string/title_activity_plan" >
+            android:label="@string/title_activity_plan"
+            android:parentActivityName=".campus">
         </activity>
         <activity
             android:name=".events"
-            android:label="@string/title_activity_events" >
+            android:label="@string/title_activity_events"
+            android:parentActivityName=".campus">
         </activity>
         <activity
             android:name=".kontakt"
-            android:label="@string/title_activity_kontakt" >
+            android:label="@string/title_activity_kontakt"
+            android:parentActivityName=".einstieg">
         </activity>
         <activity
             android:name=".map"
-            android:label="@string/title_activity_map" >
+            android:label="@string/title_activity_map"
+            android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".news"
-            android:label="@string/title_activity_news" >
+            android:label="@string/title_activity_news"
+            android:parentActivityName=".campus">
         </activity>
         <activity
             android:name=".termine"
-            android:label="@string/title_activity_termine" >
+            android:label="@string/title_activity_termine"
+            android:parentActivityName=".MainActivity">
         </activity>
         <activity
             android:name=".einstieg"
-            android:label="@string/title_activity_einstieg" >
+            android:label="@string/title_activity_einstieg"
+            android:parentActivityName=".MainActivity">
         </activity>
 
         <meta-data
@@ -73,10 +82,8 @@
 
         <activity
             android:name=".map_institute"
-            android:label="@string/title_activity_map_institute" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.firstsem.map" />
+            android:label="@string/title_activity_map_institute"
+            android:parentActivityName=".map">
         </activity>
     </application>
 
