@@ -24,16 +24,6 @@ public class Linklist extends ActionBarActivity {
         return true;
     }
 
-    public void switchToLink1(View view){
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ief.uni-rostock.de/index.php?id=forschung_institute"));
-        startActivity(browserIntent);
-    }
-
-    public void switchToLink2(View view){
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.ief.uni-rostock.de/index.php?id=studienbuero"));
-        startActivity(browserIntent);
-    }
-
     public void switchToLink3(View view){
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.uni-rostock.de"));
         startActivity(browserIntent);

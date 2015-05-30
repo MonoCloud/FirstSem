@@ -13,11 +13,11 @@
         android:fillViewport="false">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/linearLayout2"
-            android:nestedScrollingEnabled="false" >
+            android:nestedScrollingEnabled="false"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -40,47 +40,13 @@
                 <LinearLayout
                     android:orientation="vertical"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:layout_height="match_parent">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/textView3"
-                        android:text="Kontakte"
-                        android:textSize="22dp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp" />
-
-                    <Button
-                        style="?android:attr/buttonStyleSmall"
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
-                        android:text="Professoren"
-                        android:id="@+id/button"
-                        android:onClick="switchToLink1"
-                        android:layout_gravity="center_horizontal" />
-
-                    <Button
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
-                        android:text="Studenten-Sekretariat"
-                        android:id="@+id/button2"
-                        android:layout_centerVertical="true"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:onClick="switchToLink2"
-                        android:layout_gravity="center_horizontal" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView2"
-                        android:text="Links"
-                        android:textSize="22dp"
-                        android:textStyle="bold"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp" />
+                        android:text="New Text"
+                        android:id="@+id/textView2" />
 
                     <Button
                         android:layout_width="200dp"
@@ -92,6 +58,18 @@
                         android:layout_alignParentStart="true"
                         android:onClick="switchToLink3"
                         android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView4" />
 
                     <Button
                         android:layout_width="200dp"
@@ -104,6 +82,19 @@
                         android:onClick="switchToLink4"
                         android:layout_gravity="center_horizontal" />
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView5" />
+
                     <Button
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
@@ -114,6 +105,19 @@
                         android:layout_alignParentStart="true"
                         android:onClick="switchToLink5"
                         android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView6" />
 
                     <Button
                         android:layout_width="200dp"
@@ -126,6 +130,19 @@
                         android:onClick="switchToLink6"
                         android:layout_gravity="center_horizontal" />
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView8" />
+
                     <Button
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
@@ -136,6 +153,19 @@
                         android:layout_alignParentStart="true"
                         android:onClick="switchToLink7"
                         android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView9" />
 
                     <Button
                         android:layout_width="200dp"
@@ -148,6 +178,19 @@
                         android:onClick="switchToLink8"
                         android:layout_gravity="center_horizontal" />
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView10" />
+
                     <Button
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
@@ -158,6 +201,19 @@
                         android:layout_alignParentStart="true"
                         android:onClick="switchToLink9"
                         android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView23" />
 
                     <Button
                         android:layout_width="200dp"
@@ -170,6 +226,19 @@
                         android:onClick="switchToLink10"
                         android:layout_gravity="center_horizontal" />
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView25" />
+
                     <Button
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
@@ -180,6 +249,19 @@
                         android:layout_alignParentStart="true"
                         android:onClick="switchToLink11"
                         android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView26" />
 
                     <Button
                         android:layout_width="200dp"
@@ -192,6 +274,19 @@
                         android:onClick="switchToLink12"
                         android:layout_gravity="center_horizontal" />
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView28" />
+
                     <Button
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
@@ -203,6 +298,19 @@
                         android:onClick="switchToLink13"
                         android:layout_gravity="center_horizontal" />
 
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView32" />
+
                     <Button
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
@@ -213,6 +321,19 @@
                         android:layout_alignParentStart="true"
                         android:onClick="switchToLink14"
                         android:layout_gravity="center_horizontal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New Text"
+                        android:id="@+id/textView33" />
 
                     <Button
                         android:layout_width="200dp"
@@ -226,8 +347,8 @@
                         android:layout_gravity="center_horizontal" />
 
                 </LinearLayout>
-
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
