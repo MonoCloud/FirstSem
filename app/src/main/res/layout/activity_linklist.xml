@@ -45,7 +45,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Die Homepage der Universität Rostock ist euer zerntraler Anlaufpunkt für alle allgemeinen organisatorischen Belange euer Studium betreffend."
                         android:id="@+id/textView2" />
 
                     <Button
@@ -68,7 +68,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Als Studenten der Universität Rostock erhaltet ihr einen Mail-Account der Uni Rostock. Über diese Adresse erhaltet ihr alle wichtigen Benachrichtigungen."
                         android:id="@+id/textView4" />
 
                     <Button
@@ -92,7 +92,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Das Stud.IP dient der Vernetzung von Studenten und Dozenten. Hier könnt ihr euch für Veranstaltungen eintragen und erhaltet die dazugehörigen Dokumente."
                         android:id="@+id/textView5" />
 
                     <Button
@@ -116,7 +116,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Das Vorlesungsverzeichnis Listet alle Lehrveranstaltungen an der Uni Rostock auf. Hier könnt ihr euch auch euren Stundenplan zusammenstellen und als pdf oder ics exportieren."
                         android:id="@+id/textView6" />
 
                     <Button
@@ -140,7 +140,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Das Studentenwerk ist der zentrale Anlaufpunkt für die Beantragung des BAföGs und wenn ihr euch um einen Wohnheimplatz bewerben wollt. Außerdem findet ihr dort auch die Mensapläne."
                         android:id="@+id/textView8" />
 
                     <Button
@@ -164,7 +164,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Im Prüfungsportal müsst ihr euch für eure Prüfungen anmelden und habt Einsicht in eure erbrachten Leistungen. Weiterhin könnt ihr euch hier Studienbescheinigenungen ausdrucken."
                         android:id="@+id/textView9" />
 
                     <Button
@@ -188,7 +188,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Der Fachschaftsrat besteht aus euren gewählten studentischen Vertretern. Sie sind euer erster Ansprechpartner bei Problemen bezüglich des Studiums."
                         android:id="@+id/textView10" />
 
                     <Button
@@ -212,7 +212,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Über die Homepage der Fakultät für Elektrotechnik und Informatik enthält Informationen zu euren Studiengängen."
                         android:id="@+id/textView23" />
 
                     <Button
@@ -236,7 +236,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Das Sprachenzentrum der Universität Rostock bietet euch ein breites Spektrum an Sprachkursen in unterschiedlichen Niveaustufen an."
                         android:id="@+id/textView25" />
 
                     <Button
@@ -260,7 +260,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="ILIAS ist eine Lernplattform, die die Durchführung von Onlinetests erlaubt."
                         android:id="@+id/textView26" />
 
                     <Button
@@ -284,7 +284,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="In der Universitätsbibliothek findet ihr alle Bücher, die ihr für euer Studium benötigt."
                         android:id="@+id/textView28" />
 
                     <Button
@@ -308,7 +308,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Die Universität Rostock bietet eine Vielzahl von Sportarten an, die ihr in jedem Halbsemester belegen könnt."
                         android:id="@+id/textView32" />
 
                     <Button
@@ -332,7 +332,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Text"
+                        android:text="Als Studenten der Universität Rostock erhaltet ihr Zugriff auf das WLAN-Netzwerk, dass in allen Unigebäuden verfügbar ist. Wie ihr euch damit verbindet erfahrt ihr hier."
                         android:id="@+id/textView33" />
 
                     <Button
