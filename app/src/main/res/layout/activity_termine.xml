@@ -15,19 +15,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Termine und Fristen"
+            android:text="Alle wichtigen Termine findest du hier..."
             android:id="@+id/termin_title"
             android:layout_gravity="center_horizontal"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp" />
+            android:layout_marginBottom="10dp"
+            android:singleLine="false" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Im Folgenden wird ausgeschlossen, dass Prüfungsfristen eingetragen werden ... weil das zu spezifisch ist und nicht allgemein"
+            android:text="Über den Button gelangt ihr zu den allgemeinen Terminen und Fristen, die für alle Studenten der Universität Rostock gleichermaßen gelten. Wenn ihr es etwas Studiengangsspezifischer wollt (Prüfungstermine, Anmeldefristen, etc.) dann schaut in das Prüfungsportal, auf die Website eures zuständigen Studentensekretariats oder in eure jeweilige Prüfungsordnung."
             android:id="@+id/termin_textView"
             android:layout_gravity="center_horizontal"
             android:layout_margin="20dp" />
